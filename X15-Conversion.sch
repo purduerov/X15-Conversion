@@ -1283,7 +1283,7 @@ DIN A4, landscape with location and doc. field</description>
 <part name="CIN2" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="4.7PF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:37414/1" value=".47uF"/>
 <part name="CIN1" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="1000UF" device="-RADIAL-5MM-35V-20%-KIT" package3d_urn="urn:adsk.eagle:package:37421/1" value="180uF"/>
 <part name="RADJ" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="2.0KOHM" device="-0603-1/10W-5%" package3d_urn="urn:adsk.eagle:package:39650/1" value="12.4k"/>
-<part name="D2" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE-ZENER" device="-DZ2J150M0L" package3d_urn="urn:adsk.eagle:package:38444/1" value="20V @ 3A"/>
+<part name="D2" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE-ZENER" device="-MMSZ5232BS" package3d_urn="urn:adsk.eagle:package:38441/1" value="20V @ 3A"/>
 <part name="CB" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="4.7PF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:37414/1" value=".01uF"/>
 <part name="L1" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="L" device="" value="22uH"/>
 <part name="COUT1" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="1000UF" device="-RADIAL-5MM-35V-20%-KIT" package3d_urn="urn:adsk.eagle:package:37421/1" value="100uF"/>

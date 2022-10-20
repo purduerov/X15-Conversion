@@ -730,17 +730,17 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="DIO-09003" x="-71.12" y="-77.47" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-46.99" y="-86.995" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R7" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="150" x="-25.4" y="-80.01" smashed="yes">
+<element name="R7" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="600" x="-25.4" y="-80.01" smashed="yes">
 <attribute name="NAME" x="-25.4" y="-79.248" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-07862" x="-71.12" y="-81.28" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-25.4" y="-80.772" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R8" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="150" x="-54.61" y="-86.36" smashed="yes">
+<element name="R8" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="300" x="-54.61" y="-86.36" smashed="yes">
 <attribute name="NAME" x="-54.61" y="-85.598" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-07862" x="-71.12" y="-85.09" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-54.61" y="-87.122" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R9" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="150" x="-50.8" y="-86.36" smashed="yes">
+<element name="R9" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="200" x="-50.8" y="-86.36" smashed="yes">
 <attribute name="NAME" x="-50.8" y="-85.598" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-07862" x="-71.12" y="-88.9" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-50.8" y="-87.122" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
