@@ -281,22 +281,22 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="PANASONIC_SMINI2-F5-B" urn="urn:adsk.eagle:footprint:38404/1" library_version="1">
-<description>From http://www.semicon.panasonic.co.jp/ds4/DZ2J150_E.pdf</description>
-<wire x1="-1.897" y1="0.625" x2="-1.897" y2="-0.625" width="0.2032" layer="21"/>
-<wire x1="-0.85" y1="0.625" x2="0.85" y2="0.625" width="0.127" layer="21"/>
-<wire x1="-0.85" y1="-0.625" x2="0.85" y2="-0.625" width="0.127" layer="21"/>
-<smd name="C" x="-1.2" y="0" dx="0.9" dy="1.1" layer="1"/>
-<smd name="A" x="1.2" y="0" dx="0.9" dy="0.9" layer="1"/>
+<package name="SOD-323" urn="urn:adsk.eagle:footprint:38400/1" library_version="1">
+<description>SOD-323 (Small Outline Diode)</description>
+<wire x1="-1.77" y1="0.625" x2="-1.77" y2="-0.625" width="0.2032" layer="21"/>
+<wire x1="-0.9" y1="0.625" x2="0.9" y2="0.625" width="0.2032" layer="21"/>
+<wire x1="-0.9" y1="-0.625" x2="0.9" y2="-0.625" width="0.2032" layer="21"/>
+<smd name="C" x="-1.15" y="0" dx="0.63" dy="0.83" layer="1"/>
+<smd name="A" x="1.15" y="0" dx="0.63" dy="0.83" layer="1"/>
 <text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
 </package>
 </packages>
 <packages3d>
-<package3d name="PANASONIC_SMINI2-F5-B" urn="urn:adsk.eagle:package:38444/1" type="box" library_version="1">
-<description>From http://www.semicon.panasonic.co.jp/ds4/DZ2J150_E.pdf</description>
+<package3d name="SOD-323" urn="urn:adsk.eagle:package:38441/1" type="box" library_version="1">
+<description>SOD-323 (Small Outline Diode)</description>
 <packageinstances>
-<packageinstance name="PANASONIC_SMINI2-F5-B"/>
+<packageinstance name="SOD-323"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -451,6 +451,46 @@ LED - BLUE</description>
 </packageinstances>
 </package3d>
 </packages3d>
+</library>
+<library name="EEEFKE181XSP">
+<packages>
+<package name="CAP_EEEFKE181XSP">
+<wire x1="-3.3" y1="2.3" x2="-3.3" y2="-2.3" width="0.127" layer="51"/>
+<wire x1="-3.3" y1="-2.3" x2="-2.3" y2="-3.3" width="0.127" layer="51"/>
+<wire x1="-2.3" y1="-3.3" x2="3.3" y2="-3.3" width="0.127" layer="51"/>
+<wire x1="3.3" y1="-3.3" x2="3.3" y2="3.3" width="0.127" layer="51"/>
+<wire x1="3.3" y1="3.3" x2="-2.3" y2="3.3" width="0.127" layer="51"/>
+<wire x1="-2.3" y1="3.3" x2="-3.3" y2="2.3" width="0.127" layer="51"/>
+<wire x1="-3.3" y1="-2.3" x2="-2.3" y2="-3.3" width="0.127" layer="21"/>
+<wire x1="-2.3" y1="-3.3" x2="3.3" y2="-3.3" width="0.127" layer="21"/>
+<wire x1="3.3" y1="3.3" x2="-2.3" y2="3.3" width="0.127" layer="21"/>
+<wire x1="-2.3" y1="3.3" x2="-3.3" y2="2.3" width="0.127" layer="21"/>
+<wire x1="-3.3" y1="2.3" x2="-3.3" y2="1.12" width="0.127" layer="21"/>
+<wire x1="-3.3" y1="-1.12" x2="-3.3" y2="-2.3" width="0.127" layer="21"/>
+<wire x1="3.3" y1="1.12" x2="3.3" y2="3.3" width="0.127" layer="21"/>
+<wire x1="3.3" y1="-3.3" x2="3.3" y2="-1.12" width="0.127" layer="21"/>
+<wire x1="-4.35" y1="1.05" x2="-3.55" y2="1.05" width="0.05" layer="39"/>
+<wire x1="3.55" y1="1.05" x2="4.35" y2="1.05" width="0.05" layer="39"/>
+<wire x1="4.35" y1="1.05" x2="4.35" y2="-1.05" width="0.05" layer="39"/>
+<wire x1="4.35" y1="-1.05" x2="3.55" y2="-1.05" width="0.05" layer="39"/>
+<wire x1="-3.55" y1="-1.05" x2="-4.35" y2="-1.05" width="0.05" layer="39"/>
+<wire x1="-4.35" y1="-1.05" x2="-4.35" y2="1.05" width="0.05" layer="39"/>
+<circle x="-4.15" y="1.35" radius="0.1" width="0.2" layer="51"/>
+<circle x="-4.15" y="1.35" radius="0.1" width="0.2" layer="21"/>
+<text x="-2.7" y="4.05" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.7" y="-4.05" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<wire x1="-3.55" y1="1.05" x2="-3.55" y2="2.425" width="0.05" layer="39"/>
+<wire x1="-3.55" y1="2.425" x2="-2.425" y2="3.55" width="0.05" layer="39"/>
+<wire x1="-2.425" y1="3.55" x2="3.55" y2="3.55" width="0.05" layer="39"/>
+<wire x1="3.55" y1="3.55" x2="3.55" y2="1.05" width="0.05" layer="39"/>
+<wire x1="3.55" y1="-1.05" x2="3.55" y2="-3.55" width="0.05" layer="39"/>
+<wire x1="3.55" y1="-3.55" x2="-2.425" y2="-3.55" width="0.05" layer="39"/>
+<wire x1="-2.425" y1="-3.55" x2="-3.55" y2="-2.425" width="0.05" layer="39"/>
+<wire x1="-3.55" y1="-2.425" x2="-3.55" y2="-1.05" width="0.05" layer="39"/>
+<smd name="1" x="-2.5" y="0" dx="3.2" dy="1.6" layer="1"/>
+<smd name="2" x="2.5" y="0" dx="3.2" dy="1.6" layer="1"/>
+</package>
+</packages>
 </library>
 </libraries>
 <attributes>
@@ -685,10 +725,10 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="CAP-09538" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-30.48" y="48.133" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="D2" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" package="PANASONIC_SMINI2-F5-B" package3d_urn="urn:adsk.eagle:package:38444/1" value="20V @ 3A" x="-22.86" y="68.58" smashed="yes">
+<element name="D2" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" package="SOD-323" package3d_urn="urn:adsk.eagle:package:38441/1" value="20V @ 3A" x="-22.86" y="68.58" smashed="yes">
 <attribute name="NAME" x="-22.86" y="69.342" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="DIO-12989" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-22.86" y="67.818" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="DIO-12442" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="5.6V" x="-22.86" y="67.818" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="RADJ" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="12.4k" x="-43.18" y="68.58" smashed="yes">
 <attribute name="NAME" x="-43.18" y="69.342" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
@@ -755,6 +795,15 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="DIO-08575" x="-71.12" y="-96.52" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-39.37" y="-86.995" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
+<element name="C1" library="EEEFKE181XSP" package="CAP_EEEFKE181XSP" value="EEEFKE181XSP" x="-62.23" y="-81.28" smashed="yes">
+<attribute name="DESCRIPTION" value=" 180µF 25V Aluminum Electrolytic Capacitors Radial, Can - SMD 340mOhm @ 100kHz 2000 Hrs @ 105°C " x="-62.23" y="-81.28" size="1.778" layer="27" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="P18956TR-ND" x="-62.23" y="-81.28" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Panasonic" x="-62.23" y="-81.28" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="EEEFKE181XSP" x="-62.23" y="-81.28" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-64.93" y="-77.23" size="1.27" layer="25"/>
+<attribute name="PACKAGE" value="RADIAL-2 Panasonic" x="-62.23" y="-81.28" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-64.93" y="-85.33" size="1.27" layer="27" align="top-left"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -797,8 +846,8 @@ design rules under a new name.</description>
 <wire x1="-36.83" y1="53.34" x2="-44.485" y2="53.34" width="0" layer="19" extent="1-1"/>
 <wire x1="-32.98" y1="53.34" x2="-36.83" y2="53.34" width="0" layer="19" extent="1-1"/>
 <wire x1="-21.55" y1="53.34" x2="-32.98" y2="53.34" width="0" layer="19" extent="1-1"/>
-<wire x1="-21.66" y1="68.58" x2="-21.55" y2="53.34" width="0" layer="19" extent="1-1"/>
-<wire x1="-27.09" y1="68.58" x2="-21.66" y2="68.58" width="0" layer="19" extent="1-1"/>
+<wire x1="-21.71" y1="68.58" x2="-21.55" y2="53.34" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.09" y1="68.58" x2="-21.71" y2="68.58" width="0" layer="19" extent="1-1"/>
 <wire x1="-34.71" y1="68.58" x2="-27.09" y2="68.58" width="0" layer="19" extent="1-1"/>
 <wire x1="-38.52" y1="68.58" x2="-34.71" y2="68.58" width="0" layer="19" extent="1-1"/>
 <wire x1="-44.03" y1="68.58" x2="-38.52" y2="68.58" width="0" layer="19" extent="1-1"/>
@@ -862,7 +911,7 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="PIN7"/>
 <contactref element="D2" pad="C"/>
 <contactref element="CB" pad="2"/>
-<wire x1="-30.9" y1="68.58" x2="-24.06" y2="68.58" width="0" layer="19" extent="1-1"/>
+<wire x1="-30.9" y1="68.58" x2="-24.01" y2="68.58" width="0" layer="19" extent="1-1"/>
 <wire x1="-36.83" y1="57.15" x2="-30.9" y2="68.58" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">

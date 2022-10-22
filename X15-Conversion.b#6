@@ -356,6 +356,27 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="PIN1" x="0" y="-7.62" dx="2.16" dy="0.91" layer="1"/>
 <smd name="PIN8" x="-7.655" y="-3.81" dx="10.41" dy="10.8" layer="1"/>
 </package>
+<package name="LINEAR,AZ1117CR-3.3TRG1">
+<description>1.35A 3.3V LDO Reg. Current Limit SOT223</description>
+<wire x1="-3.275" y1="-1.775" x2="-3.275" y2="1.775" width="0.15" layer="51"/>
+<wire x1="-3.275" y1="1.775" x2="3.275" y2="1.775" width="0.15" layer="51"/>
+<wire x1="3.275" y1="1.775" x2="3.275" y2="-1.775" width="0.15" layer="51"/>
+<wire x1="3.275" y1="-1.775" x2="-3.275" y2="-1.775" width="0.15" layer="51"/>
+<wire x1="-3.375" y1="-4.1" x2="-3.375" y2="4.1" width="0.1" layer="39"/>
+<wire x1="-3.375" y1="4.1" x2="3.375" y2="4.1" width="0.1" layer="39"/>
+<wire x1="3.375" y1="4.1" x2="3.375" y2="-4.1" width="0.1" layer="39"/>
+<wire x1="3.375" y1="-4.1" x2="-3.375" y2="-4.1" width="0.1" layer="39"/>
+<wire x1="-3.275" y1="1.775" x2="3.275" y2="1.775" width="0.15" layer="21"/>
+<wire x1="3.275" y1="-1.775" x2="3.275" y2="1.775" width="0.15" layer="21"/>
+<wire x1="-3.275" y1="-1.775" x2="3.275" y2="-1.775" width="0.15" layer="21"/>
+<wire x1="-3.275" y1="-1.775" x2="-3.275" y2="1.775" width="0.15" layer="21"/>
+<text x="-3.275" y="4.175" size="1" layer="25">&gt;NAME</text>
+<circle x="-3.875" y="-3.2" radius="0.25" width="0" layer="21"/>
+<smd name="1" x="-2.3" y="-3.2" dx="1.2" dy="1.6" layer="1"/>
+<smd name="2" x="0" y="-3.2" dx="1.2" dy="1.6" layer="1"/>
+<smd name="3" x="2.3" y="-3.2" dx="1.2" dy="1.6" layer="1"/>
+<smd name="4" x="0" y="3.2" dx="3.3" dy="1.6" layer="1"/>
+</package>
 </packages>
 </library>
 <library name="testpoints">
@@ -720,6 +741,16 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="-50.8" y="67.818" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="U$1" library="X15-Conversion" package="BUCK,LM2679SX-ADJ" value="BUCK,LM2679SX-ADJ" x="-36.83" y="57.15" smashed="yes"/>
+<element name="U2" library="X15-Conversion" package="LINEAR,AZ1117CR-3.3TRG1" value="LINEAR,AZ1117CR-3.3TRG1DIODES_AZ1117CH-3.3TRG1_0_0" x="-53.34" y="52.07" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Linear Voltage Regulator IC Positive Fixed 1 Output 1A SOT-223-3 " x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Diodes Inc." x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="AZ1117CH-3.3TRG1" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-56.615" y="56.245" size="1" layer="25"/>
+<attribute name="PACKAGE" value="SOT-223 Diodes Inc." x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/AZ1117CH-3.3TRG1/?ref=eda" x="0" y="0" size="1.778" layer="27" display="off"/>
+</element>
 <element name="U$8" library="testpoints" package="3.3V_TESTPOINT" value="3.3V_TESTPOINT" x="-38.1" y="-34.29" smashed="yes"/>
 <element name="U$9" library="testpoints" package="5.2V_TESTPOINT" value="5.2V_TESTPOINT" x="-38.1" y="-81.28" smashed="yes"/>
 <element name="U$10" library="testpoints" package="12V_TESTPOINT" value="12V_TESTPOINT" x="-30.48" y="-81.28" smashed="yes"/>
@@ -793,6 +824,7 @@ design rules under a new name.</description>
 <contactref element="C10" pad="2"/>
 <contactref element="C11" pad="2"/>
 <contactref element="CIN1" pad="2"/>
+<contactref element="U2" pad="1"/>
 <wire x1="-55.88" y1="-76.2" x2="-59.73" y2="-81.28" width="0" layer="19" extent="1-1"/>
 <wire x1="-53.34" y1="-76.2" x2="-55.88" y2="-76.2" width="0" layer="19" extent="1-1"/>
 <wire x1="-53.34" y1="-81.28" x2="-53.34" y2="-76.2" width="0" layer="19" extent="1-1"/>
@@ -804,7 +836,8 @@ design rules under a new name.</description>
 <wire x1="-50.8" y1="-35.56" x2="-53.34" y2="-35.56" width="0" layer="19" extent="1-1"/>
 <wire x1="-30.48" y1="-34.29" x2="-50.8" y2="-35.56" width="0" layer="19" extent="1-1"/>
 <wire x1="-49.49" y1="6.35" x2="-50.8" y2="-35.56" width="0" layer="19" extent="1-1"/>
-<wire x1="-44.485" y1="53.34" x2="-49.49" y2="6.35" width="0" layer="19" extent="1-1"/>
+<wire x1="-55.64" y1="48.87" x2="-49.49" y2="6.35" width="0" layer="19" extent="1-1"/>
+<wire x1="-44.485" y1="53.34" x2="-55.64" y2="48.87" width="0" layer="19" extent="1-1"/>
 <wire x1="-36.83" y1="53.34" x2="-44.485" y2="53.34" width="0" layer="19" extent="1-1"/>
 <wire x1="-32.98" y1="53.34" x2="-36.83" y2="53.34" width="0" layer="19" extent="1-1"/>
 <wire x1="-21.55" y1="53.34" x2="-32.98" y2="53.34" width="0" layer="19" extent="1-1"/>
@@ -898,6 +931,12 @@ design rules under a new name.</description>
 <contactref element="R9" pad="1"/>
 <contactref element="D7" pad="A"/>
 <wire x1="-40.247" y1="-86.36" x2="-51.65" y2="-86.36" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="INPUT">
+<contactref element="U2" pad="3"/>
+</signal>
+<signal name="OUPUT">
+<contactref element="U2" pad="2"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
