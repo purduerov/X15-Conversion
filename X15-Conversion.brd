@@ -171,10 +171,12 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="160" y2="0" width="0" layer="20"/>
-<wire x1="160" y1="0" x2="160" y2="100" width="0" layer="20"/>
-<wire x1="160" y1="100" x2="0" y2="100" width="0" layer="20"/>
-<wire x1="0" y1="100" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0.508" y1="0.381" x2="51.308" y2="0.381" width="0" layer="20"/>
+<wire x1="51.308" y1="0.381" x2="51.308" y2="48.006" width="0" layer="20"/>
+<wire x1="36.068" y1="63.246" x2="0.508" y2="63.246" width="0" layer="20"/>
+<wire x1="0.508" y1="63.246" x2="0.508" y2="0.381" width="0" layer="20"/>
+<wire x1="36.068" y1="63.246" x2="36.068" y2="48.006" width="0" layer="20"/>
+<wire x1="36.068" y1="48.006" x2="51.308" y2="48.006" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors" urn="urn:adsk.eagle:library:510">
