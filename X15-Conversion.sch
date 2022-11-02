@@ -1921,7 +1921,7 @@ DIN A4, landscape with location and doc. field</description>
 <part name="COUT1" library="CAP-100uF" deviceset="T491D107K016AT" device="" value="100uF"/>
 <part name="COUT2" library="CAP-100uF" deviceset="T491D107K016AT" device="" value="100uF"/>
 <part name="COUT3" library="CAP-100uF" deviceset="T491D107K016AT" device="" value="100uF"/>
-<part name="CR1" library="DIODE-Shot" deviceset="SL54-TP" device=""/>
+<part name="CR1" library="DIODE-Shot" deviceset="SL54-TP" device="" value="DIODE"/>
 </parts>
 <sheets>
 <sheet>
@@ -2041,9 +2041,9 @@ SK32 - 20V @ 3A</text>
 <pinref part="COUT1" gate="A" pin="2"/>
 <pinref part="COUT2" gate="A" pin="2"/>
 <pinref part="COUT3" gate="A" pin="2"/>
-<pinref part="CR1" gate="A" pin="12"/>
 <wire x1="40.64" y1="17.78" x2="40.64" y2="15.24" width="0.1524" layer="91"/>
 <junction x="40.64" y="15.24"/>
+<pinref part="CR1" gate="A" pin="12"/>
 </segment>
 <segment>
 <pinref part="C10" gate="G$1" pin="2"/>
