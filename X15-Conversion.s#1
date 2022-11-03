@@ -1323,7 +1323,7 @@ DIN A4, landscape with location and doc. field</description>
 <part name="COUT1" library="CAP, Tantalum 150 uF - Kemet 2917 T491" deviceset="C-TANTALUM(10UF_150UF)" device="" package3d_urn="urn:adsk.eagle:package:25131320/3" value="100uF"/>
 <part name="COUT2" library="CAP, Tantalum 150 uF - Kemet 2917 T491" deviceset="C-TANTALUM(10UF_150UF)" device="" package3d_urn="urn:adsk.eagle:package:25131320/3" value="100uF"/>
 <part name="COUT3" library="CAP, Tantalum 150 uF - Kemet 2917 T491" deviceset="C-TANTALUM(10UF_150UF)" device="" package3d_urn="urn:adsk.eagle:package:25131320/3" value="100uF"/>
-<part name="L1" library="IND, 15uH - hcma1305" deviceset="HCMA1305" device="" package3d_urn="urn:adsk.eagle:package:24201702/2" value="22uH"/>
+<part name="L2" library="IND, 15uH - hcma1305" deviceset="HCMA1305" device="" package3d_urn="urn:adsk.eagle:package:24201702/2" value="15uH"/>
 </parts>
 <sheets>
 <sheet>
@@ -1399,9 +1399,9 @@ SK32 - 20V @ 3A</text>
 <attribute name="NAME" x="79.756" y="26.035" size="0.762" layer="95"/>
 <attribute name="VALUE" x="79.756" y="21.209" size="0.762" layer="96"/>
 </instance>
-<instance part="L1" gate="G$1" x="43.18" y="30.48" smashed="yes">
-<attribute name="NAME" x="43.18" y="31.75" size="0.762" layer="95"/>
-<attribute name="VALUE" x="43.18" y="29.21" size="0.762" layer="96"/>
+<instance part="L2" gate="G$1" x="43.18" y="30.48" smashed="yes">
+<attribute name="NAME" x="43.18" y="34.29" size="2.54" layer="95"/>
+<attribute name="VALUE" x="43.18" y="24.13" size="2.54" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -1491,7 +1491,7 @@ SK32 - 20V @ 3A</text>
 <pinref part="COUT1" gate="G$1" pin="+"/>
 <pinref part="COUT2" gate="G$1" pin="+"/>
 <pinref part="COUT3" gate="G$1" pin="+"/>
-<pinref part="L1" gate="G$1" pin="2"/>
+<pinref part="L2" gate="G$1" pin="2"/>
 <wire x1="58.42" y1="30.48" x2="60.96" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -1559,7 +1559,7 @@ SK32 - 20V @ 3A</text>
 <wire x1="40.64" y1="38.1" x2="40.64" y2="30.48" width="0.1524" layer="91"/>
 <junction x="40.64" y="30.48"/>
 <pinref part="DIODE" gate="A" pin="1"/>
-<pinref part="L1" gate="G$1" pin="1"/>
+<pinref part="L2" gate="G$1" pin="1"/>
 <wire x1="43.18" y1="30.48" x2="40.64" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
