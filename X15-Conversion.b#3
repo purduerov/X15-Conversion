@@ -956,9 +956,6 @@ maxErrors = 50
 <contactref element="COUT2" pad="+"/>
 <contactref element="COUT3" pad="+"/>
 <contactref element="L1" pad="2"/>
-<wire x1="15.24" y1="15.24" x2="16.51" y2="13.97" width="0.6858" layer="1"/>
-<wire x1="16.51" y1="13.97" x2="20.32" y2="13.97" width="0.6858" layer="1"/>
-<wire x1="20.32" y1="13.97" x2="22.86" y2="16.51" width="0.6858" layer="1"/>
 <wire x1="22.86" y1="16.51" x2="22.86" y2="17.26" width="0.6858" layer="1"/>
 <wire x1="34.88" y1="30.48" x2="34.88" y2="37.51" width="0.6858" layer="1"/>
 <wire x1="34.88" y1="37.51" x2="34.29" y2="38.1" width="0.6858" layer="1"/>
@@ -988,17 +985,15 @@ maxErrors = 50
 </polygon>
 <wire x1="11.899" y1="15.621" x2="11.899" y2="17.681" width="0.6858" layer="1"/>
 <wire x1="11.899" y1="17.681" x2="11.19" y2="18.39" width="0.6858" layer="1"/>
-<wire x1="11.19" y1="18.39" x2="13.97" y2="18.39" width="0.6858" layer="1"/>
-<wire x1="13.97" y1="18.39" x2="13.995" y2="18.39" width="0.6858" layer="1"/>
-<wire x1="13.97" y1="18.39" x2="15.24" y2="17.12" width="0.6858" layer="1"/>
-<wire x1="15.24" y1="17.12" x2="15.24" y2="15.24" width="0.6858" layer="1"/>
+<wire x1="11.899" y1="15.621" x2="21.221" y2="15.621" width="0.6858" layer="1"/>
+<wire x1="21.221" y1="15.621" x2="22.86" y2="17.26" width="0.6858" layer="1"/>
 <wire x1="34.88" y1="24.13" x2="34.88" y2="30.48" width="0" layer="19" extent="1-1"/>
 <wire x1="34.88" y1="17.78" x2="34.88" y2="24.13" width="0" layer="19" extent="1-1"/>
 <wire x1="31.33" y1="7.62" x2="34.88" y2="17.78" width="0" layer="19" extent="1-1"/>
 <wire x1="24.13" y1="5.08" x2="31.33" y2="7.62" width="0" layer="19" extent="1-1"/>
 <wire x1="40.64" y1="3.81" x2="31.33" y2="7.62" width="0" layer="19" extent="1-1"/>
 <wire x1="43.18" y1="3.81" x2="40.64" y2="3.81" width="0" layer="19" extent="1-1"/>
-<wire x1="22.86" y1="17.26" x2="34.88" y2="17.78" width="0" layer="19" extent="1-1"/>
+<wire x1="22.86" y1="16.51" x2="24.13" y2="5.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="12V">
 <contactref element="U$1" pad="PIN1"/>
@@ -1100,12 +1095,10 @@ maxErrors = 50
 <contactref element="CB" pad="2"/>
 <contactref element="DIODE" pad="1"/>
 <contactref element="L1" pad="1"/>
-<wire x1="25.4" y1="39.79" x2="25.61" y2="39.58" width="0.254" layer="1"/>
 <wire x1="19.712" y1="34.352" x2="22.798" y2="34.352" width="0.6858" layer="1"/>
 <wire x1="22.798" y1="34.352" x2="24.13" y2="33.02" width="0.6858" layer="1"/>
 <wire x1="24.13" y1="33.02" x2="24.13" y2="29.73" width="0.6858" layer="1"/>
 <wire x1="24.13" y1="29.73" x2="22.86" y2="28.46" width="0.6858" layer="1"/>
-<wire x1="19.712" y1="34.352" x2="20.92" y2="35.56" width="0.6858" layer="1"/>
 <polygon width="0.2032" layer="1">
 <vertex x="25.4" y="40.64"/>
 <vertex x="26.67" y="40.64"/>
