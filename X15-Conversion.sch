@@ -2521,7 +2521,6 @@ part number 2062-2P from STA</description>
 <part name="U$10" library="X15-Conversion-Parts-Library" deviceset="12V_TESTPOINT" device=""/>
 <part name="U$11" library="X15-Conversion-Parts-Library" deviceset="GND_TESTPOINT" device=""/>
 <part name="U$12" library="X15-Conversion-Parts-Library" deviceset="GND_TESTPOINT" device=""/>
-<part name="U$13" library="X15-Conversion-Parts-Library" deviceset="GND_TESTPOINT" device=""/>
 <part name="CONN1" library="X15-Conversion-Parts-Library" deviceset="CONVERSION-DISTRIBUTION" device=""/>
 <part name="D4" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-YELLOW" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="Yellow"/>
 <part name="R7" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="20OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="600"/>
@@ -2537,7 +2536,7 @@ part number 2062-2P from STA</description>
 <part name="COUT2" library="X15-Conversion-Parts-Library" deviceset="C-TANTALUM(10UF_150UF)" device="" package3d_urn="urn:adsk.eagle:package:25131320/3" value="150uF"/>
 <part name="COUT3" library="X15-Conversion-Parts-Library" deviceset="C-TANTALUM(10UF_150UF)" device="" package3d_urn="urn:adsk.eagle:package:25131320/3" value="150uF"/>
 <part name="L1" library="X15-Conversion-Parts-Library" deviceset="HCMA1305" device="" package3d_urn="urn:adsk.eagle:package:24201702/2" value="15uH"/>
-<part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1"/>
+<part name="GND" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1"/>
 <part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1"/>
 <part name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1"/>
 </parts>
@@ -2793,7 +2792,6 @@ SK32 - 20V @ 3A</text>
 <instance part="U$10" gate="G$1" x="-81.28" y="-27.94" smashed="yes"/>
 <instance part="U$11" gate="G$1" x="-81.28" y="-38.1" smashed="yes"/>
 <instance part="U$12" gate="G$1" x="-81.28" y="-48.26" smashed="yes"/>
-<instance part="U$13" gate="G$1" x="-81.28" y="-58.42" smashed="yes"/>
 <instance part="CONN1" gate="G$1" x="58.42" y="-17.78" smashed="yes">
 <attribute name="NAME" x="50.8" y="-10.16" size="1.778" layer="95"/>
 </instance>
@@ -2826,7 +2824,7 @@ SK32 - 20V @ 3A</text>
 <attribute name="NAME" x="-53.848" y="34.671" size="1.778" layer="95" font="vector" rot="R180"/>
 <attribute name="VALUE" x="-53.848" y="40.005" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
 </instance>
-<instance part="J1" gate="G$1" x="68.58" y="71.12" smashed="yes">
+<instance part="GND" gate="G$1" x="68.58" y="71.12" smashed="yes">
 <attribute name="VALUE" x="66.04" y="66.294" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="66.04" y="76.708" size="1.778" layer="95" font="vector"/>
 </instance>
@@ -2854,11 +2852,6 @@ SK32 - 20V @ 3A</text>
 <label x="-66.04" y="-48.26" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$13" gate="G$1" pin="GND"/>
-<wire x1="-76.2" y1="-58.42" x2="-66.04" y2="-58.42" width="0.1524" layer="91"/>
-<label x="-66.04" y="-58.42" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="CONN1" gate="G$1" pin="VIN-"/>
 <wire x1="45.72" y1="-17.78" x2="35.56" y2="-17.78" width="0.1524" layer="91"/>
 <label x="35.56" y="-17.78" size="1.778" layer="95" rot="R180" xref="yes"/>
@@ -2884,12 +2877,12 @@ SK32 - 20V @ 3A</text>
 <pinref part="D7" gate="G$1" pin="C"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="2"/>
+<pinref part="GND" gate="G$1" pin="2"/>
 <wire x1="76.2" y1="73.66" x2="88.9" y2="73.66" width="0.1524" layer="91"/>
 <label x="86.36" y="73.66" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="1"/>
+<pinref part="GND" gate="G$1" pin="1"/>
 <wire x1="76.2" y1="71.12" x2="88.9" y2="71.12" width="0.1524" layer="91"/>
 <label x="86.36" y="71.12" size="1.778" layer="95" align="bottom-right"/>
 </segment>
