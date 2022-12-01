@@ -985,7 +985,7 @@ maxErrors = 50
 <contactref element="CIN1" pad="2"/>
 <contactref element="U1" pad="4"/>
 <contactref element="U1" pad="1"/>
-<polygon width="0.1524" layer="1" rank="6">
+<polygon width="0.1524" layer="1" isolate="0.2032" rank="6">
 <vertex x="38.1" y="64.77"/>
 <vertex x="38.1" y="60.96"/>
 <vertex x="45.72" y="60.96"/>
@@ -1006,7 +1006,7 @@ maxErrors = 50
 <wire x1="29.706" y1="3.81" x2="35.56" y2="3.81" width="0.6858" layer="1"/>
 <contactref element="J1" pad="2"/>
 <contactref element="J1" pad="1"/>
-<polygon width="0.1524" layer="16" rank="6">
+<polygon width="0.1524" layer="16" isolate="0.2032" rank="6">
 <vertex x="-5.08" y="68.58"/>
 <vertex x="45.72" y="68.58"/>
 <vertex x="55.88" y="58.42"/>
@@ -1018,7 +1018,6 @@ maxErrors = 50
 <vertex x="-10.16" y="-1.27"/>
 <vertex x="-10.16" y="63.5"/>
 </polygon>
-<wire x1="17.78" y1="39.79" x2="15.24" y2="39.79" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="5.2V">
 <contactref element="C10" pad="1"/>
@@ -1058,8 +1057,9 @@ maxErrors = 50
 <vertex x="36.83" y="34.29"/>
 <vertex x="35.56" y="35.56"/>
 </polygon>
-<wire x1="11.899" y1="15.621" x2="11.899" y2="17.681" width="0.6858" layer="1"/>
-<wire x1="11.899" y1="17.681" x2="11.19" y2="18.39" width="0.6858" layer="1"/>
+<wire x1="11.899" y1="15.621" x2="11.899" y2="16.411" width="0.6858" layer="1"/>
+<wire x1="11.899" y1="16.411" x2="11.19" y2="17.12" width="0.6858" layer="1"/>
+<wire x1="11.19" y1="17.12" x2="11.19" y2="18.39" width="0.6858" layer="1"/>
 <wire x1="11.899" y1="15.621" x2="21.221" y2="15.621" width="0.6858" layer="1"/>
 <wire x1="21.221" y1="15.621" x2="22.86" y2="17.26" width="0.6858" layer="1"/>
 <contactref element="J3" pad="2"/>
@@ -1080,9 +1080,6 @@ maxErrors = 50
 <contactref element="CONN1" pad="2"/>
 <contactref element="R7" pad="2"/>
 <contactref element="CIN1" pad="1"/>
-<wire x1="15.24" y1="44.45" x2="13.97" y2="44.45" width="0.6858" layer="1"/>
-<wire x1="13.97" y1="44.45" x2="10.12" y2="44.45" width="0.6858" layer="1"/>
-<wire x1="15.24" y1="41.49" x2="15.24" y2="44.45" width="0.508" layer="1"/>
 <polygon width="0.2032" layer="16">
 <vertex x="12.7" y="62.23"/>
 <vertex x="12.7" y="44.45"/>
@@ -1103,19 +1100,14 @@ maxErrors = 50
 <wire x1="48.26" y1="32.17" x2="48.26" y2="30.48" width="0.6858" layer="1"/>
 <via x="48.26" y="30.48" extent="1-16" drill="0.35"/>
 <polygon width="0.1524" layer="1">
-<vertex x="15.621" y="45.339"/>
-<vertex x="15.621" y="43.18"/>
-<vertex x="16.256" y="42.545"/>
-<vertex x="16.256" y="38.608"/>
-<vertex x="16.129" y="38.481"/>
-<vertex x="14.605" y="38.481"/>
-<vertex x="13.843" y="39.243"/>
+<vertex x="15.621" y="45.847"/>
+<vertex x="15.621" y="41.021"/>
+<vertex x="13.843" y="41.021"/>
 <vertex x="13.843" y="42.926"/>
 <vertex x="13.462" y="43.307"/>
 <vertex x="8.128" y="43.307"/>
 <vertex x="8.001" y="43.434"/>
-<vertex x="8.001" y="46.228"/>
-<vertex x="14.732" y="46.228"/>
+<vertex x="8.001" y="45.847"/>
 </polygon>
 </signal>
 <signal name="3.3V">
@@ -1134,13 +1126,14 @@ maxErrors = 50
 <wire x1="45.72" y1="3.81" x2="48.26" y2="3.81" width="0.6858" layer="16"/>
 <wire x1="7.962" y1="12.7" x2="7.962" y2="15.494" width="0.6858" layer="1"/>
 <wire x1="7.962" y1="15.494" x2="8.089" y2="15.621" width="0.6858" layer="1"/>
-<wire x1="8.089" y1="15.621" x2="8.089" y2="17.589" width="0.6858" layer="1"/>
-<wire x1="8.089" y1="17.589" x2="8.89" y2="18.39" width="0.6858" layer="1"/>
+<wire x1="8.089" y1="15.621" x2="8.089" y2="16.319" width="0.6858" layer="1"/>
+<wire x1="8.89" y1="17.12" x2="8.089" y2="16.319" width="0.6858" layer="1"/>
+<wire x1="8.89" y1="17.12" x2="8.89" y2="18.39" width="0.6858" layer="1"/>
 <wire x1="5.08" y1="34.29" x2="8.89" y2="30.48" width="0.6858" layer="1"/>
 <wire x1="8.89" y1="30.48" x2="8.89" y2="27.94" width="0.6858" layer="1"/>
-<via x="8.89" y="27.94" extent="1-16" drill="0.35"/>
+<via x="8.89" y="27.94" extent="1-16" drill="0.35" diameter="0.8128"/>
 <wire x1="8.89" y1="27.94" x2="8.89" y2="21.59" width="0.6858" layer="16"/>
-<via x="8.89" y="21.59" extent="1-16" drill="0.35"/>
+<via x="8.89" y="21.59" extent="1-16" drill="0.35" diameter="0.8128"/>
 <wire x1="8.89" y1="21.59" x2="8.89" y2="18.39" width="0.6858" layer="1"/>
 <contactref element="J2" pad="2"/>
 <contactref element="J2" pad="1"/>
@@ -1155,11 +1148,10 @@ maxErrors = 50
 <signal name="BOOST">
 <contactref element="U$1" pad="PIN6"/>
 <contactref element="CB" pad="1"/>
-<wire x1="21.59" y1="44.45" x2="21.9986" y2="44.0414" width="0.508" layer="1"/>
-<wire x1="21.9986" y1="44.0414" x2="21.9986" y2="43.2016625" width="0.508" layer="1"/>
-<wire x1="21.9986" y1="43.2016625" x2="22.2366625" y2="42.9636" width="0.508" layer="1"/>
+<wire x1="21.59" y1="44.45" x2="21.59" y2="43.2292625" width="0.508" layer="1"/>
+<wire x1="21.8556625" y1="42.9636" x2="21.59" y2="43.2292625" width="0.508" layer="1"/>
 <wire x1="23.9264" y1="42.9636" x2="25.4" y2="41.49" width="0.508" layer="1"/>
-<wire x1="22.2366625" y1="42.9636" x2="23.9264" y2="42.9636" width="0.508" layer="1"/>
+<wire x1="21.8556625" y1="42.9636" x2="23.9264" y2="42.9636" width="0.508" layer="1"/>
 </signal>
 <signal name="FB">
 <contactref element="U$1" pad="PIN5"/>
