@@ -956,6 +956,7 @@ maxErrors = 50
 <contactref element="COUT2" pad="+"/>
 <contactref element="COUT3" pad="+"/>
 <contactref element="L1" pad="2"/>
+<wire x1="22.86" y1="16.51" x2="22.86" y2="17.26" width="0.6858" layer="1"/>
 <wire x1="34.88" y1="30.48" x2="34.88" y2="37.51" width="0.6858" layer="1"/>
 <wire x1="34.88" y1="37.51" x2="34.29" y2="38.1" width="0.6858" layer="1"/>
 <via x="34.29" y="38.1" extent="1-16" drill="0.35"/>
