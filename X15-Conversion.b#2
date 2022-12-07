@@ -3088,7 +3088,7 @@ maxErrors = 50
 <attribute name="MP" value="EEEFKE181XSP" x="7.62" y="44.45" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="10.32" y="40.4" size="1.27" layer="25" rot="R180"/>
 <attribute name="PACKAGE" value="RADIAL-2 Panasonic" x="7.62" y="44.45" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="2.9604" y="46.642" size="1.27" layer="27" rot="R270" align="top-left"/>
+<attribute name="VALUE" x="10.32" y="48.5" size="1.27" layer="27" rot="R180" align="top-left"/>
 </element>
 <element name="U1" library="X15-Conversion-Parts-Library" package="LINEAR,AZ1117CR-3.3TRG1" value="LINEAR,AZ1117CR-3.3TRG1DIODES_AZ1117CH-3.3TRG1_0_0" x="8.89" y="21.59" smashed="yes">
 <attribute name="AVAILABILITY" value="In Stock" x="8.89" y="21.59" size="1.778" layer="27" display="off"/>
