@@ -2522,13 +2522,13 @@ part number 2062-2P from STA</description>
 <part name="U$11" library="X15-Conversion-Parts-Library" deviceset="GND_TESTPOINT" device=""/>
 <part name="U$12" library="X15-Conversion-Parts-Library" deviceset="GND_TESTPOINT" device=""/>
 <part name="CONN1" library="X15-Conversion-Parts-Library" deviceset="CONVERSION-DISTRIBUTION" device=""/>
-<part name="D4" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-YELLOW" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="Yellow"/>
+<part name="12V" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-YELLOW" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="Yellow"/>
 <part name="R7" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="20OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="600"/>
 <part name="R8" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="20OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="300"/>
 <part name="R9" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="20OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="200"/>
 <part name="FRAME3" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device="" value="2"/>
-<part name="D6" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-RED" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="RED"/>
-<part name="D7" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-BLUE" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="BLUE"/>
+<part name="5.2V" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-RED" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="RED"/>
+<part name="3.3V" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-BLUE" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="BLUE"/>
 <part name="CIN1" library="X15-Conversion-Parts-Library" deviceset="EEEFKE181XSP" device="" value="180uF"/>
 <part name="U1" library="X15-Conversion-Parts-Library" deviceset="LINEAR,AZ1117CR-3.3TRG1" device="DIODES_AZ1117CH-3.3TRG1_0_0"/>
 <part name="DIODE" library="X15-Conversion-Parts-Library" deviceset="CDBG520-G" device="" value="40V"/>
@@ -2795,7 +2795,7 @@ SK32 - 20V @ 3A</text>
 <instance part="CONN1" gate="G$1" x="58.42" y="-17.78" smashed="yes">
 <attribute name="NAME" x="50.8" y="-10.16" size="1.778" layer="95"/>
 </instance>
-<instance part="D4" gate="G$1" x="-58.42" y="63.5" smashed="yes" rot="R90">
+<instance part="12V" gate="G$1" x="-58.42" y="63.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="-53.848" y="60.071" size="1.778" layer="95" font="vector" rot="R180"/>
 <attribute name="VALUE" x="-53.848" y="65.405" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
 </instance>
@@ -2816,11 +2816,11 @@ SK32 - 20V @ 3A</text>
 <attribute name="LAST_DATE_TIME" x="102.87" y="-73.66" size="2.286" layer="94"/>
 <attribute name="SHEET" x="116.205" y="-78.74" size="2.54" layer="94"/>
 </instance>
-<instance part="D6" gate="G$1" x="-58.42" y="50.8" smashed="yes" rot="R90">
+<instance part="5.2V" gate="G$1" x="-58.42" y="50.8" smashed="yes" rot="R90">
 <attribute name="NAME" x="-53.848" y="47.371" size="1.778" layer="95" font="vector" rot="R180"/>
 <attribute name="VALUE" x="-53.848" y="52.705" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
 </instance>
-<instance part="D7" gate="G$1" x="-58.42" y="38.1" smashed="yes" rot="R90">
+<instance part="3.3V" gate="G$1" x="-58.42" y="38.1" smashed="yes" rot="R90">
 <attribute name="NAME" x="-53.848" y="34.671" size="1.778" layer="95" font="vector" rot="R180"/>
 <attribute name="VALUE" x="-53.848" y="40.005" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
 </instance>
@@ -2862,19 +2862,19 @@ SK32 - 20V @ 3A</text>
 <label x="86.36" y="-22.352" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="D4" gate="G$1" pin="C"/>
+<pinref part="12V" gate="G$1" pin="C"/>
 <wire x1="-53.34" y1="63.5" x2="-43.18" y2="63.5" width="0.1524" layer="91"/>
 <label x="-43.18" y="63.5" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="-53.34" y1="50.8" x2="-43.18" y2="50.8" width="0.1524" layer="91"/>
 <label x="-43.18" y="50.8" size="1.778" layer="95" xref="yes"/>
-<pinref part="D6" gate="G$1" pin="C"/>
+<pinref part="5.2V" gate="G$1" pin="C"/>
 </segment>
 <segment>
 <wire x1="-53.34" y1="38.1" x2="-43.18" y2="38.1" width="0.1524" layer="91"/>
 <label x="-43.18" y="38.1" size="1.778" layer="95" xref="yes"/>
-<pinref part="D7" gate="G$1" pin="C"/>
+<pinref part="3.3V" gate="G$1" pin="C"/>
 </segment>
 <segment>
 <pinref part="GND" gate="G$1" pin="2"/>
@@ -2960,20 +2960,20 @@ SK32 - 20V @ 3A</text>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="D4" gate="G$1" pin="A"/>
+<pinref part="12V" gate="G$1" pin="A"/>
 <pinref part="R7" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
-<pinref part="D6" gate="G$1" pin="A"/>
+<pinref part="5.2V" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
 <pinref part="R9" gate="G$1" pin="1"/>
-<pinref part="D7" gate="G$1" pin="A"/>
+<pinref part="3.3V" gate="G$1" pin="A"/>
 </segment>
 </net>
 </nets>
