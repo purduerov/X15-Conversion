@@ -3354,9 +3354,10 @@ maxErrors = 50
 <contactref element="R1" pad="1"/>
 <contactref element="R2" pad="1"/>
 <wire x1="22.1996" y1="41.236" x2="24.7396" y2="41.236" width="0.6858" layer="1"/>
+<wire x1="21.59" y1="44.323" x2="21.59" y2="44.4754" width="0.508" layer="1"/>
+<wire x1="21.59" y1="44.4754" x2="21.59" y2="42.799" width="0.508" layer="1"/>
 <wire x1="22.1996" y1="42.1894" x2="22.1996" y2="41.236" width="0.508" layer="1"/>
-<wire x1="22.1996" y1="42.1894" x2="21.59" y2="42.799" width="0.508" layer="1"/>
-<wire x1="21.59" y1="42.799" x2="21.59" y2="44.4754" width="0.508" layer="1"/>
+<wire x1="21.59" y1="42.799" x2="22.1996" y2="42.1894" width="0.508" layer="1"/>
 </signal>
 <signal name="N$8">
 <contactref element="12V" pad="A"/>
