@@ -755,40 +755,22 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="-7.62" y1="2.667" x2="-7.112" y2="2.667" width="0.1524" layer="39"/>
 <wire x1="-7.112" y1="2.667" x2="-7.112" y2="6.477" width="0.1524" layer="39"/>
 </package>
-<package name="CDBG520-G">
-<wire x1="-3.302" y1="3.048" x2="-3.302" y2="1.538" width="0.1524" layer="21"/>
-<wire x1="-3.302" y1="1.538" x2="-3.302" y2="-1.662" width="0.1524" layer="21"/>
-<wire x1="-3.302" y1="-1.662" x2="-3.302" y2="-3.172" width="0.1524" layer="21"/>
-<wire x1="-3.302" y1="-3.175" x2="3.808" y2="-3.175" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="-3.175" x2="3.81" y2="3.048" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="3.048" x2="-3.302" y2="3.048" width="0.1524" layer="21"/>
-<wire x1="-3.302" y1="1.538" x2="-3.872" y2="1.538" width="0.1524" layer="21"/>
-<wire x1="-3.872" y1="1.538" x2="-3.872" y2="-1.662" width="0.1524" layer="21"/>
-<wire x1="-3.302" y1="-1.662" x2="-3.872" y2="-1.662" width="0.1524" layer="21"/>
-<wire x1="3.808" y1="1.538" x2="4.378" y2="1.538" width="0.1524" layer="21"/>
-<wire x1="3.808" y1="-1.662" x2="4.378" y2="-1.662" width="0.1524" layer="21"/>
-<wire x1="4.378" y1="1.538" x2="4.378" y2="-1.662" width="0.1524" layer="21"/>
-<smd name="1" x="-3.202" y="-0.062" dx="2.5" dy="3.3" layer="1"/>
-<smd name="2" x="3.698" y="-0.062" dx="2.5" dy="3.3" layer="1"/>
-<wire x1="-3.556" y1="3.302" x2="4.064" y2="3.302" width="0.1524" layer="39"/>
-<wire x1="4.064" y1="3.302" x2="4.064" y2="1.778" width="0.1524" layer="39"/>
-<wire x1="4.064" y1="1.778" x2="5.207" y2="1.778" width="0.1524" layer="39"/>
-<wire x1="5.207" y1="1.778" x2="5.207" y2="-1.905" width="0.1524" layer="39"/>
-<wire x1="5.207" y1="-1.905" x2="4.064" y2="-1.905" width="0.1524" layer="39"/>
-<wire x1="4.064" y1="-1.905" x2="4.064" y2="-3.429" width="0.1524" layer="39"/>
-<wire x1="4.064" y1="-3.429" x2="-3.556" y2="-3.429" width="0.1524" layer="39"/>
-<wire x1="-3.556" y1="-3.429" x2="-3.556" y2="-1.905" width="0.1524" layer="39"/>
-<wire x1="-3.556" y1="-1.905" x2="-4.699" y2="-1.905" width="0.1524" layer="39"/>
-<wire x1="-4.699" y1="-1.905" x2="-4.699" y2="1.778" width="0.1524" layer="39"/>
-<wire x1="-4.699" y1="1.778" x2="-3.556" y2="1.778" width="0.1524" layer="39"/>
-<wire x1="-3.556" y1="1.778" x2="-3.556" y2="3.302" width="0.1524" layer="39"/>
-<wire x1="-1.524" y1="0" x2="-0.762" y2="0" width="0.1524" layer="21"/>
-<wire x1="0.381" y1="0" x2="1.27" y2="0" width="0.1524" layer="21"/>
-<wire x1="-0.762" y1="0" x2="0.381" y2="1.143" width="0.1524" layer="21"/>
-<wire x1="0.381" y1="1.143" x2="0.381" y2="0" width="0.1524" layer="21"/>
-<wire x1="0.381" y1="0" x2="0.381" y2="-1.143" width="0.1524" layer="21"/>
-<wire x1="0.381" y1="-1.143" x2="-0.762" y2="0" width="0.1524" layer="21"/>
-<wire x1="-0.762" y1="0.889" x2="-0.762" y2="-0.762" width="0.1524" layer="21"/>
+<package name="DO214AC" urn="urn:adsk.eagle:footprint:43214/1">
+<description>&lt;b&gt;DIODE&lt;/b&gt;</description>
+<wire x1="-2.3" y1="1" x2="2.3" y2="1" width="0.254" layer="51"/>
+<wire x1="2.3" y1="1" x2="2.3" y2="-0.95" width="0.254" layer="51"/>
+<wire x1="2.3" y1="-0.95" x2="-2.3" y2="-0.95" width="0.254" layer="51"/>
+<wire x1="-2.3" y1="-0.95" x2="-2.3" y2="1" width="0.254" layer="51"/>
+<wire x1="-0.8" y1="0" x2="0.25" y2="0.75" width="0.254" layer="21"/>
+<wire x1="0.25" y1="0.75" x2="0.25" y2="-0.7" width="0.254" layer="21"/>
+<wire x1="0.25" y1="-0.7" x2="-0.8" y2="0" width="0.254" layer="21"/>
+<smd name="C" x="-2.05" y="0" dx="1.8" dy="1.7" layer="1"/>
+<smd name="A" x="2.05" y="0" dx="1.8" dy="1.7" layer="1"/>
+<text x="-2.64" y="1.286" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.64" y="-2.556" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-2.65" y1="-0.7" x2="-2.4" y2="0.65" layer="51"/>
+<rectangle x1="2.4" y1="-0.7" x2="2.65" y2="0.65" layer="51"/>
+<rectangle x1="-1" y1="-1.05" x2="-0.7" y2="1.05" layer="21"/>
 </package>
 <package name="2917(7343-31-METRIC)" urn="urn:adsk.eagle:footprint:25131319/2" locally_modified="yes">
 <smd name="+" x="-3.22" y="0" dx="2.77" dy="2.55" layer="1"/>
@@ -855,6 +837,20 @@ DIN A4, landscape with location and doc. field</description>
 <smd name="1" x="-2.5" y="0" dx="3.2" dy="1.6" layer="1"/>
 <smd name="2" x="2.5" y="0" dx="3.2" dy="1.6" layer="1"/>
 </package>
+<package name="BUCK,LM2679SX-ADJ">
+<smd name="PIN7" x="0" y="0" dx="2.16" dy="0.91" layer="1"/>
+<smd name="PIN6" x="0" y="-1.27" dx="2.16" dy="0.91" layer="1"/>
+<smd name="PIN5" x="0" y="-2.54" dx="2.16" dy="0.91" layer="1"/>
+<smd name="PIN4" x="0" y="-3.81" dx="2.16" dy="0.91" layer="1"/>
+<smd name="PIN3" x="0" y="-5.08" dx="2.16" dy="0.91" layer="1"/>
+<smd name="PIN2" x="0" y="-6.35" dx="2.16" dy="0.91" layer="1"/>
+<smd name="PIN1" x="0" y="-7.62" dx="2.16" dy="0.91" layer="1"/>
+<smd name="PIN8" x="-10.195" y="-3.81" dx="10.918" dy="10.8" layer="1"/>
+<wire x1="-16.002" y1="1.778" x2="1.27" y2="1.778" width="0.127" layer="39"/>
+<wire x1="1.27" y1="1.778" x2="1.27" y2="-9.398" width="0.127" layer="39"/>
+<wire x1="1.27" y1="-9.398" x2="-16.002" y2="-9.398" width="0.127" layer="39"/>
+<wire x1="-16.002" y1="-9.398" x2="-16.002" y2="1.778" width="0.127" layer="39"/>
+</package>
 <package name="TSW-105-05-G-S(C-D)">
 <pad name="4" x="-3.81" y="20.32" drill="1.016"/>
 <pad name="3" x="-1.27" y="20.32" drill="1.016"/>
@@ -875,16 +871,6 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="-7.62" y1="-21.59" x2="7.62" y2="-21.59" width="0.1524" layer="21"/>
 <wire x1="7.62" y1="-21.59" x2="7.62" y2="-19.05" width="0.1524" layer="21"/>
 <wire x1="-7.62" y1="-19.05" x2="7.62" y2="-19.05" width="0.1524" layer="21"/>
-</package>
-<package name="BUCK,LM2679SX-ADJ">
-<smd name="PIN7" x="0" y="0" dx="2.16" dy="0.91" layer="1"/>
-<smd name="PIN6" x="0" y="-1.27" dx="2.16" dy="0.91" layer="1"/>
-<smd name="PIN5" x="0" y="-2.54" dx="2.16" dy="0.91" layer="1"/>
-<smd name="PIN4" x="0" y="-3.81" dx="2.16" dy="0.91" layer="1"/>
-<smd name="PIN3" x="0" y="-5.08" dx="2.16" dy="0.91" layer="1"/>
-<smd name="PIN2" x="0" y="-6.35" dx="2.16" dy="0.91" layer="1"/>
-<smd name="PIN1" x="0" y="-7.62" dx="2.16" dy="0.91" layer="1"/>
-<smd name="PIN8" x="-7.655" y="-3.81" dx="10.41" dy="10.8" layer="1"/>
 </package>
 </packages>
 <packages3d>
@@ -989,18 +975,6 @@ DIN A4, landscape with location and doc. field</description>
 <pin name="1" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
-<symbol name="TSW-105-05-G-S">
-<pin name="VIN+" x="-12.7" y="5.08" length="middle"/>
-<pin name="VIN-" x="-12.7" y="0" length="middle"/>
-<pin name="VOUT+_5" x="17.78" y="5.08" length="middle" rot="R180"/>
-<pin name="VOUT+_3" x="17.78" y="0" length="middle" rot="R180"/>
-<pin name="VOUT-" x="17.78" y="-4.572" length="middle" rot="R180"/>
-<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.1524" layer="94"/>
-<wire x1="-7.62" y1="-7.62" x2="12.7" y2="-7.62" width="0.1524" layer="94"/>
-<wire x1="12.7" y1="-7.62" x2="12.7" y2="7.62" width="0.1524" layer="94"/>
-<wire x1="12.7" y1="7.62" x2="-7.62" y2="7.62" width="0.1524" layer="94"/>
-<text x="-7.62" y="7.62" size="1.778" layer="95">&gt;NAME</text>
-</symbol>
 <symbol name="BUCK,LM2679SX-ADJ">
 <wire x1="-17.78" y1="10.16" x2="20.32" y2="10.16" width="0.254" layer="94"/>
 <wire x1="20.32" y1="10.16" x2="20.32" y2="7.62" width="0.254" layer="94"/>
@@ -1023,6 +997,17 @@ DIN A4, landscape with location and doc. field</description>
 <pin name="BOOST" x="25.4" y="0" length="middle" rot="R180"/>
 <pin name="SWITCH" x="25.4" y="-7.62" length="middle" rot="R180"/>
 </symbol>
+<symbol name="TSW-105-05-G-S(1)">
+<pin name="VIN+" x="-12.7" y="5.08" length="middle"/>
+<pin name="VOUT+_5" x="17.78" y="5.08" length="middle" rot="R180"/>
+<pin name="VOUT+_3" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="GND" x="17.78" y="-4.572" length="middle" rot="R180"/>
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="12.7" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="12.7" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="7.62" x2="-7.62" y2="7.62" width="0.1524" layer="94"/>
+<text x="-7.62" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="LINEAR,AZ1117CR-3.3TRG1" prefix="U">
@@ -1033,9 +1018,9 @@ DIN A4, landscape with location and doc. field</description>
 <devices>
 <device name="DIODES_AZ1117CH-3.3TRG1_0_0" package="LINEAR,AZ1117CR-3.3TRG1">
 <connects>
-<connect gate="G$0" pin="GND" pad="1 4"/>
+<connect gate="G$0" pin="GND" pad="1"/>
 <connect gate="G$0" pin="INPUT" pad="3"/>
-<connect gate="G$0" pin="OUPUT" pad="2"/>
+<connect gate="G$0" pin="OUPUT" pad="2 4"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1078,10 +1063,10 @@ DIN A4, landscape with location and doc. field</description>
 <gate name="A" symbol="DIODE_SCHOTTKYBARRIER" x="-2.54" y="0"/>
 </gates>
 <devices>
-<device name="" package="CDBG520-G">
+<device name="" package="DO214AC">
 <connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
+<connect gate="A" pin="1" pad="C"/>
+<connect gate="A" pin="2" pad="A"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1192,25 +1177,6 @@ DIN A4, landscape with location and doc. field</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CONVERSION-DISTRIBUTION">
-<gates>
-<gate name="G$1" symbol="TSW-105-05-G-S" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="TSW-105-05-G-S(C-D)">
-<connects>
-<connect gate="G$1" pin="VIN+" pad="1 2"/>
-<connect gate="G$1" pin="VIN-" pad="3 4"/>
-<connect gate="G$1" pin="VOUT+_3" pad="5 6"/>
-<connect gate="G$1" pin="VOUT+_5" pad="7 8"/>
-<connect gate="G$1" pin="VOUT-" pad="9 10"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="BUCK,LM2679SX-ADJ">
 <gates>
 <gate name="G$1" symbol="BUCK,LM2679SX-ADJ" x="0" y="0"/>
@@ -1225,6 +1191,24 @@ DIN A4, landscape with location and doc. field</description>
 <connect gate="G$1" pin="SS" pad="PIN7"/>
 <connect gate="G$1" pin="SWITCH" pad="PIN1"/>
 <connect gate="G$1" pin="VIN" pad="PIN2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CONVERSION-DISTRIBUTION">
+<gates>
+<gate name="A" symbol="TSW-105-05-G-S(1)" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="TSW-105-05-G-S(C-D)">
+<connects>
+<connect gate="A" pin="GND" pad="5 6"/>
+<connect gate="A" pin="VIN+" pad="1 2 3 4"/>
+<connect gate="A" pin="VOUT+_3" pad="9 10"/>
+<connect gate="A" pin="VOUT+_5" pad="7 8"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2521,7 +2505,6 @@ part number 2062-2P from STA</description>
 <part name="U$10" library="X15-Conversion-Parts-Library" deviceset="12V_TESTPOINT" device=""/>
 <part name="U$11" library="X15-Conversion-Parts-Library" deviceset="GND_TESTPOINT" device=""/>
 <part name="U$12" library="X15-Conversion-Parts-Library" deviceset="GND_TESTPOINT" device=""/>
-<part name="CONN1" library="X15-Conversion-Parts-Library" deviceset="CONVERSION-DISTRIBUTION" device=""/>
 <part name="12V" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-YELLOW" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="Yellow"/>
 <part name="R7" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="20OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="600"/>
 <part name="R8" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="20OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="300"/>
@@ -2539,6 +2522,7 @@ part number 2062-2P from STA</description>
 <part name="GND" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1"/>
 <part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1"/>
 <part name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1"/>
+<part name="U$2" library="X15-Conversion-Parts-Library" deviceset="CONVERSION-DISTRIBUTION" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2792,9 +2776,6 @@ SK32 - 20V @ 3A</text>
 <instance part="U$10" gate="G$1" x="-81.28" y="-27.94" smashed="yes"/>
 <instance part="U$11" gate="G$1" x="-81.28" y="-38.1" smashed="yes"/>
 <instance part="U$12" gate="G$1" x="-81.28" y="-48.26" smashed="yes"/>
-<instance part="CONN1" gate="G$1" x="58.42" y="-17.78" smashed="yes">
-<attribute name="NAME" x="50.8" y="-10.16" size="1.778" layer="95"/>
-</instance>
 <instance part="12V" gate="G$1" x="-58.42" y="63.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="-53.848" y="60.071" size="1.778" layer="95" font="vector" rot="R180"/>
 <attribute name="VALUE" x="-53.848" y="65.405" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
@@ -2836,6 +2817,9 @@ SK32 - 20V @ 3A</text>
 <attribute name="VALUE" x="66.04" y="40.894" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="66.04" y="51.308" size="1.778" layer="95" font="vector"/>
 </instance>
+<instance part="U$2" gate="A" x="58.42" y="-17.78" smashed="yes">
+<attribute name="NAME" x="50.8" y="-10.16" size="1.778" layer="95"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -2852,14 +2836,9 @@ SK32 - 20V @ 3A</text>
 <label x="-66.04" y="-48.26" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CONN1" gate="G$1" pin="VIN-"/>
-<wire x1="45.72" y1="-17.78" x2="35.56" y2="-17.78" width="0.1524" layer="91"/>
-<label x="35.56" y="-17.78" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="CONN1" gate="G$1" pin="VOUT-"/>
 <wire x1="76.2" y1="-22.352" x2="86.36" y2="-22.352" width="0.1524" layer="91"/>
 <label x="86.36" y="-22.352" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$2" gate="A" pin="GND"/>
 </segment>
 <segment>
 <pinref part="12V" gate="G$1" pin="C"/>
@@ -2894,9 +2873,9 @@ SK32 - 20V @ 3A</text>
 <label x="-66.04" y="-17.78" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CONN1" gate="G$1" pin="VOUT+_5"/>
 <wire x1="76.2" y1="-12.7" x2="86.36" y2="-12.7" width="0.1524" layer="91"/>
 <label x="86.36" y="-12.7" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$2" gate="A" pin="VOUT+_5"/>
 </segment>
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
@@ -2921,9 +2900,9 @@ SK32 - 20V @ 3A</text>
 <label x="-66.04" y="-27.94" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CONN1" gate="G$1" pin="VIN+"/>
 <wire x1="45.72" y1="-12.7" x2="35.56" y2="-12.7" width="0.1524" layer="91"/>
 <label x="35.56" y="-12.7" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$2" gate="A" pin="VIN+"/>
 </segment>
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
@@ -2938,9 +2917,9 @@ SK32 - 20V @ 3A</text>
 <label x="-66.04" y="-7.62" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CONN1" gate="G$1" pin="VOUT+_3"/>
 <wire x1="76.2" y1="-17.78" x2="86.36" y2="-17.78" width="0.1524" layer="91"/>
 <label x="86.36" y="-17.78" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$2" gate="A" pin="VOUT+_3"/>
 </segment>
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
